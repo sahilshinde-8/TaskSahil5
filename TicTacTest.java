@@ -59,11 +59,13 @@ public class TicTacTest {
             //For X winner
             if (line.equals("XXX")) {
                 //return "X";
+		    System.out.println("Player 1 Win");
             }
              
             // For O winner
             else if (line.equals("OOO")) {
                // return "O";
+		     System.out.println("Player 2 Win");
             }
         }
          
